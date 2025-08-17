@@ -1,0 +1,16 @@
+# WordPress
+wp-config.php
+wp-config-local.php
+wp-config-production.php
+
+# API Keys
+*api-key*
+*apikey*
+
+# Logs
+*.log
+debug.log
+
+# Cache
+*.cache
+/cache/

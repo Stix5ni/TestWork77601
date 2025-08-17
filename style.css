@@ -1,0 +1,79 @@
+/*
+Theme Name: Storefront Child
+Theme URI: https://example.com/storefront-child/
+Author: Your Name
+Author URI: https://example.com/
+Description: Child theme for Storefront.
+Version: 1.0.0
+Template: storefront
+Text Domain: storefront-child
+*/
+
+#city-search {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#cities-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#cities-table th,
+#cities-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#cities-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.pagination a, .pagination span.current {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #0073aa;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #0073aa;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.pagination a:hover {
+    background-color: #0073aa;
+    color: #fff;
+}
+
+.pagination span.current {
+    background-color: #0073aa;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .pagination {
+        gap: 5px;
+    }
+    .pagination a, .pagination span.current {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
